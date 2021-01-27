@@ -1,0 +1,9 @@
+<div class="container">
+  <h2 class="text-center">Состав команды</h2>
+  <h5 class="text-center">Наш руководитель: Первухин Дмитрий Васильевич</h5>
+  <div class="card-group">
+    <div *ngFor="let m of members" class="col-4">
+      <app-member [member]=m></app-member>
+    </div>
+  </div>
+</div>
